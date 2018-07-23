@@ -4,6 +4,6 @@ var playlist = {
   tiamat: "Cain"
 }
 
-function updatePlaylist(playlist, rikschaffer,  ) {
+function updatePlaylist(playlist, rikschaffer, Hollywood Theme ) {
   
 }
