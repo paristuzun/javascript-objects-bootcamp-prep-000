@@ -4,6 +4,6 @@ var playlist = {
   tiamat: "Cain"
 }
 
-function updatePlaylist(playlist, ) {
+function updatePlaylist(playlist, rikschaffer,  ) {
   
 }
