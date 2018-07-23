@@ -4,6 +4,8 @@ var playlist = {
   tiamat: "Cain"
 }
 
-function updatePlaylist(playlist, lacunacoil, Spellbound ) {
+function updatePlaylist(playlist, ministry, Bloodlines ) {
+  playlist.ministry = "Bloodlines"
+  return playlist
   
 }
