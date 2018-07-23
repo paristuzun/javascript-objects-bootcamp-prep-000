@@ -1,15 +1,11 @@
-var playlist = { 
-  rikschaffer: "Hollywood Theme",
-  lacunacoil: "Swamped",
-  tiamat: "Cain"
+var playlist = new Object({ artist: "song title" });
+
+function updatePlaylist(playlist, artist, songtitle) {
+  playlist[artist] = songtitle;
+  return playlist;
 }
 
-function updatePlaylist(playlist, ministry, Bloodlines ) {
-  playlist.ministry = "Bloodlines"
-  return playlist
-}
-
-function updatePlaylist(playlist, tiamat ) {
-  delete playlist.tiamat
-  return playlist
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist[artistName];
+  return playlist;
 }
