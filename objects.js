@@ -7,5 +7,4 @@ var playlist = {
 function updatePlaylist(playlist, ministry, Bloodlines ) {
   playlist.ministry = "Bloodlines"
   return playlist
-  
 }
