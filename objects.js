@@ -4,6 +4,6 @@ var playlist = {
   tiamat: "Cain"
 }
 
-function updatePlaylist(playlist, lacunacoil, Swamped ) {
+function updatePlaylist(playlist, lacunacoil, Spellbound ) {
   
 }
